@@ -42,7 +42,7 @@ python3 manage.py runserver # go to http://127.0.0.1:8000
 
 get all data:
 
-````bash
+```bash
 curl --header "Content-Type: application/json" \
 --request GET \
 --url "http://127.0.0.1:8000/api/todo/"
@@ -55,7 +55,7 @@ curl --header "Content-Type: application/json" \
 --request POST \
 --data '{"title": "Test Todo"}' \
 http://127.0.0.1:8000/api/todo/
-````
+```
 
 Update data:
 
